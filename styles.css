@@ -437,7 +437,7 @@
 }
 .logo {
     color: #8cb3d9;
-    font-size: 35px;
+    font-size: 35vw;
     letter-spacing: 1px;
     cursor: pointer;
 }
@@ -465,7 +465,7 @@
 h1 {
     color: #ccc;
     margin: 20px 0px 20px;
-    font-size: 75px;
+    font-size: 75vw;
 }
 span {
     color: #8cb3d9;
