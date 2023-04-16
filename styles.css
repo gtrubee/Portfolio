@@ -487,7 +487,8 @@ h4 {
     margin: auto;
 }
 img {
-    width: 50%;
+    height: 60%;
+    width: 40%;
     padding-top: 50px;
     display: block;
     margin-left: auto;
