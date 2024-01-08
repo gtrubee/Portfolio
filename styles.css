@@ -19,8 +19,10 @@ html {
 }
 
 .welcome-text p {
-    max-width: 500px;
-    font-size: 18px;
+    max-width: 800px;
+    font-size: 25px;
+    line-height: 150%;
+    margin-left: 5%;
 }
 
 p a {
@@ -35,24 +37,53 @@ p a:hover {
 }
 
 .welcome-text h1 {
-    font-size: 50px;
-    color: rgb(77, 80, 82);
-    /*
-    color: rgb(247, 166, 112); */
+    font-size: 60px;
+    color: rgb(180, 137, 56);
+    margin-left: 3%;
 }
 
 .welcome-text h4 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .welcome-button {
   text-decoration: none;
-  color: gray;
-  background-color: black;
+  font-size: 50px;
+  color: rgb(255, 252, 252);
+  background-color: rgb(180, 137, 56);
   border-style: solid;
   border-width: 1px 1px 1px 1px;
+  border-color: rgb(180, 137, 56);
   padding: 4px;
   border-radius: 10px;
+  position: absolute;
+  top: 1000px;
+  text-align: center;
+  margin-left: 31%;
+}
+
+.avatar {
+  width: 100%;
+  height: auto;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.welcome-image {
+  position: absolute;
+  width:500px; 
+  height:500px; 
+  border-radius:50%; 
+  overflow:hidden;
+  float: right;    
+  bottom: 550px;
+  right: 500px;
 }
 
 .sticky-header {
@@ -76,6 +107,7 @@ p a:hover {
     margin: 0;
     padding: 0;
     display: flex;
+    float: right;
   }
   
   .sticky-header li {
