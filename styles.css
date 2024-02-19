@@ -77,10 +77,10 @@ img {
 
 .welcome-image {
   position: absolute;
-  width:500px; 
-  height:500px; 
-  border-radius:50%; 
-  overflow:hidden;
+  width: 500px; 
+  height: 500px; 
+  border-radius: 50%; 
+  overflow: hidden;
   float: right;    
   bottom: 550px;
   right: 500px;
